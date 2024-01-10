@@ -1,4 +1,4 @@
-Info
+.::INFO::.
 =
 /*
 Part of The Outforce - Developer tools V2.7 or above.
@@ -8,7 +8,7 @@ Written and program developed by Krisztian Kispeti
 
 // For MapDataBuilder V1.0 tool
 
-Usage
+.::USAGE::.
 =
 
 1.)  Select a MapData.box archive to load its contents to listView.
@@ -25,3 +25,7 @@ You can add/replace files in the archive with out extracting the *.box
 archive too.
 
 // For this program please use the data\MapEditor\MapDataBox folder!
+
+.::TODO::.
+=
+Help me implementing the saving method :"D

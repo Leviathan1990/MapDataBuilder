@@ -28,4 +28,6 @@ archive too.
 
 .::TODO::.
 =
-Help me implementing the saving method :"D
+1.)  Help me implementing the saving method :"D
+
+2.)  Help me implementing the button1_click as well :s

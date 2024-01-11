@@ -1,11 +1,3 @@
-/*
- * Mapdata.box archive validation checker
- * Part of MapDataBuilder tool V1.0 or above
- * By: Krisztian Kispeti
- */
-
-// For button1_Click
-
 using System;
 
 namespace MapDataBoxValidation
@@ -86,7 +78,7 @@ namespace MapDataBoxValidation
                 if (endIndex != -1)
                 {
                     string widthStr = content.Substring(startIndex, endIndex - startIndex).Trim();
-                    return int.TryParse(widthStr, out int width) && width >= 25 && width <= 156;
+                    return int.TryParse(widthStr, out int width) && width >= 25 && width <= 256;
                 }
             }
 
@@ -105,7 +97,7 @@ namespace MapDataBoxValidation
                 if (endIndex != -1)
                 {
                     string heightStr = content.Substring(startIndex, endIndex - startIndex).Trim();
-                    return int.TryParse(heightStr, out int height) && height >= 25 && height <= 156;
+                    return int.TryParse(heightStr, out int height) && height >= 25 && height <= 256;
                 }
             }
 
